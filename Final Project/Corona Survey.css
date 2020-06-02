@@ -1,0 +1,191 @@
+body
+{
+	background-color: rgb(184, 122, 151);
+	color: #000;
+	font-family: Helvetica; 
+	font-size: large;
+}
+
+.End 
+{
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    text-align: center; 
+    font-size: 60%;
+    color: #FFF;
+}
+
+.Header
+{
+    color: #FFF;
+    font-size: 110%;
+    text-align: center;
+}
+
+.label
+{
+    text-align: left;
+    color: #FFF;
+    font-size: 70%;
+}
+
+.input
+{
+    text-align: right;
+}
+
+#image
+{
+	width: 50%;
+	height: 250px;
+}
+
+#firstName
+{
+    border-color: #FFF;
+}
+
+#lastName
+{
+    border-color: #FFF;
+}
+
+#hospital
+{
+	border-color: #FFF;
+}
+
+#thoughts
+{
+	border-color: #FFF;
+}
+
+#firstNamePrompt
+{
+    font-size: 75%;
+}
+
+#lastNamePrompt
+{
+    font-size: 75%;
+}
+
+#hospitalPrompt
+{
+    font-size: 75%;
+}
+
+#thoughtPrompt
+{
+	font-size: 75%;
+}
+
+select{
+
+    border:1px solid #d7d7d7;
+    padding:5px;
+    border-radius:2px;
+}
+
+select:hover{
+    background:#cde4f7;
+    border:1px solid #41c9ff;
+}
+
+select:focus {
+    -webkit-box-shadow: 0 0 3px 1px #7cdaff;
+    -moz-box-shadow: 0 0 3px 1px #7cdaff;
+    box-shadow: 0 0 3px 1px #7cdaff;
+}
+
+select:before{
+    content: "▼";
+}
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+option{
+    background:#fff;
+    border-color:#41c9ff;
+    border-radius:2px;
+    line-height: 18px;
+    outline:none;
+    -webkit-box-shadow: 0 0 3px 1px #c00;
+    -moz-box-shadow: 0 0 3px 1px #c00;
+    box-shadow: 0 0 3px 1px #c00;
+}
+option:focus{
+    -webkit-box-shadow: 0 0 3px 1px #7cdaff;
+        -moz-box-shadow: 0 0 3px 1px #7cdaff;
+        box-shadow: 0 0 3px 1px #7cdaff;
+}
+
+img.center 
+{
+    display: block;
+    margin: 0 auto;
+}
+.feedback
+{
+    text-align: left;
+    vertical-align: middle;
+    color: LightGray;
+    font-size: small;
+}
+
+.paragraph
+{
+	text-align: left;
+    color: #FFF;
+    font-size: 80%;
+}
+
+.Button {
+    margin: auto;
+    text-align: center;
+    width: 50px;
+    position: center;
+    height: 40px;
+    font-size: 15;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 35px 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: Gray; 
+  border: white;
+  font-size: 75%;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+.button1:hover {
+  background-color: none;
+  color: rgb(184, 122, 151);
+}
