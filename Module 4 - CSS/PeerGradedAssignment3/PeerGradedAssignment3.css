@@ -1,0 +1,77 @@
+body
+{
+	background-color: rgb(184, 122, 151);
+}
+
+h1
+{
+	font-size: 120%; 
+	font-family: Helvetica; 
+	text-align:center;
+}
+
+h2
+{
+	font-size: 100%; 
+	font-family: Helvetica;
+}
+
+
+table 
+{
+	border-collapse: collapse;
+}
+
+
+table, th, td 
+{
+  border: 1px solid black;
+}
+
+
+th, td 
+{
+  padding: 15px;
+  text-align: left;
+}
+
+.Div {
+  display: inline;
+}
+
+#google
+{
+	width: 25%;
+	height: 130px;
+
+}
+
+#yahoo
+{
+	width: 25%;
+	height: 130px;
+}
+
+#gmail 
+{
+	width: 25%;
+	height: 130px;
+}
+
+#facebook
+{
+	width: 25%;
+	height: 130px;
+}
+
+#instagram
+{
+	width: 25%;
+	height: 130px;
+}
+
+img.center 
+{
+    display: block;
+    margin: 0 auto;
+}
