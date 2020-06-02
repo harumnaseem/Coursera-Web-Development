@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title> Assignment 2</title>
+		
+		<script type="text/javascript">
+			
+			function generateSquare()
+			{
+				var input = document.getElementById("inputField").value;
+
+				document.getElementById("para").innerHTML = "The square is " +input * input;
+			}
+
+		</script>
+
+	</head>
+
+	<body onload = "alert('Nice to Meet You!')">
+		
+		<H1 style = "font-size: 120%; font-family: Helvetica; text-align:center;" > HOMEPAGE </H1>
+
+	
+		<H2 style = "font-size: 80%; font-family: Helvetica;"> Generate square: </H2>
+		<input type = "number" id = "inputField" /> 
+		<button onclick = "generateSquare();"> click </button>
+
+		<p id = "para" style = "font-size: 70%; font-family: Helvetica;"> </p>
+
+	</body>
+
+</html>

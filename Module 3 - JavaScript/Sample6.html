@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		
+		<title> OnBlur Event Page </title>
+
+		<script type="text/javascript">
+			
+			function checkField1()
+			{
+				var field = document.getElementById("field1").value;
+
+				if(field.length < 5)
+				{
+					document.getElementById("message1").innerHTML = "Too short!";
+				}
+				else
+				{
+					document.getElementById("message1").innerHTML = "That's long enough!";
+				}
+			}
+
+		</script>
+
+	</head>
+
+	<body>
+		
+		<p> JavaScript OnBlur Event Tests. </p>
+
+		<input type = "text" id = "field1" onblur = "checkField1();" /> <span id = "message1"></span>
+		
+		<input type = "text" id = "field2"/> <span id = "message1"></span>
+
+		<input type = "text" id = "field3"/> <span id = "message1"></span>
+
+	</body>
+
+</html>
