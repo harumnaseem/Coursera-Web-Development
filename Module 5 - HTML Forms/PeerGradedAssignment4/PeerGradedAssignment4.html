@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title> Assignment 4 </title>
+
+		<link rel="stylesheet" type="text/css" href="PeerGradedAssignment4.css">
+
+		<script type="text/javascript" src = "PeerGradedAssignment4.js"></script>
+		
+	</head>
+
+	<body>
+			<H1 class = "Header"> SIGNUP </H1>
+
+			<form action = "#">
+
+				<div id = "fullpage">
+
+					<table border = "0">
+
+						<tr>
+							<td class = "label"> 
+							Email Address: 
+							</td>
+
+							<td class = "input"> 
+								<input name = "email" id = "email" type = "text" onblur="validateEmail();" placeholder = "johnsmith@gmail.com">
+							</td>
+
+							<td class = "feedback">
+								<span id = "emailPrompt">
+									&nbsp;
+								</span>	
+							</td>
+						</tr>
+
+						<tr>
+							<td class = "label"> 
+							First Name: 
+							</td>
+
+							<td class = "input"> 
+								<input name = "firstName" id = "firstName" type = "text" onblur="validateFirstName();" placeholder = "John">
+							</td>
+
+							<td class = "feedback">
+								<span id = "firstNamePrompt">
+									&nbsp;
+								</span>	
+							</td>
+						</tr>
+
+
+						<tr>
+
+							<td class = "label"> 
+								Last Name: 
+							</td>
+
+							<td class = "input"> 
+								<input name = "lastName" id = "lastName" type = "text" onblur = "validateLastName();" placeholder = "Smith">
+							</td>
+
+							<td class = "feedback">
+								<span id = "lastNamePrompt">
+									&nbsp;
+								</span>	
+							</td>
+
+						</tr>
+
+						<tr>
+							<td class = "label"> 
+								Password:
+							</td>
+
+							<td class = "input">
+								<input name = "password" id = "password" type = "password" onblur = "validatePassword();" placeholder = "******">
+							</td>
+
+							<td class = "feedback">
+								<span id = "passwordPrompt">
+									&nbsp;
+								</span>	
+							</td>
+
+						</tr>
+
+						<tr>
+
+							<td class = "label"> 
+								Phone Number: 
+							</td>
+
+							<td class = "input"> 
+								<input name = "phone" id = "phone" type = "text" onblur = "validatePhone();" placeholder = "xxx-xxx-xxxx">
+							</td>
+
+							<td class = "feedback">
+								<span id = "phonePrompt">
+									&nbsp;
+								</span>	
+							</td>
+
+						</tr>
+
+					</table>
+
+				</div>
+				<div class="wrapper">
+					<input type = "button" class = "button button1" value="Sign up">
+				</div>
+
+			</form>
+
+      		<p class = "End" > By Harum Naseem </p>
+
+	</body>
+
+</html>

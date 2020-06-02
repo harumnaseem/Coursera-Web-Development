@@ -1,0 +1,141 @@
+body
+{
+	background-color: rgb(184, 122, 151);
+	color: #000;
+	font-family: Helvetica; 
+	font-size: large;
+}
+
+.End 
+{
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    text-align: center; 
+    font-size: 60%;
+    color: #FFF;
+}
+
+.Header
+{
+    color: #FFF;
+    font-size: 120%;
+    text-align: left;
+}
+
+#fullpage
+{
+    margin: 40px;
+}
+
+.label
+{
+    text-align: left;
+    color: #FFF;
+    font-size: 80%;
+}
+
+.input
+{
+    text-align: right;
+}
+
+.feedback
+{
+    text-align: left;
+    vertical-align: middle;
+    color: LightGray;
+    font-size: small;
+}
+
+#firstName
+{
+    border-color: #FFF;
+}
+
+#lastName
+{
+    border-color: #FFF;
+}
+
+#phone
+{
+    border-color: #FFF;
+}
+
+#email
+{
+    border-color: #FFF;
+}
+
+#password
+{
+    border-color: #FFF;
+}
+
+#passwordPrompt
+{
+    font-size: 75%;
+}
+
+#emailPrompt
+{
+    font-size: 75%;
+}
+
+#firstNamePrompt
+{
+    font-size: 75%;
+}
+
+#lastNamePrompt
+{
+    font-size: 75%;
+}
+
+#phonePrompt
+{
+    font-size: 75%;
+}
+
+.Button {
+    margin: auto;
+    text-align: center;
+    width: 50px;
+    position: center;
+    height: 50px;
+    font-size: 15;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 35px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+}
+
+.button1 {
+  background-color: white; 
+  color: Gray; 
+  border: white;
+  font-size: 75%;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+.button1:hover {
+  background-color: none;
+  color: rgb(184, 122, 151);
+}
